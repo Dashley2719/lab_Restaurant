@@ -3,11 +3,15 @@ h1 {
     text-align: center;
     color:darkgreen;
     text-shadow: 20px;
+    font-family: "Comic Sans MS";
 }
 footer {
    position: fixed;
    bottom: 0px;
    height:70px;
    width:100%;
+}
+div.background {
+    background-color: sienna;
 }
 
