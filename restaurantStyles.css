@@ -14,4 +14,16 @@ footer {
 div.background {
     background-color: sienna;
 }
-
+a {
+    text-decoration: underline;
+    color: blue;
+}
+a:hover {
+    font-weight: bold;
+}
+a:visited {
+    color: red;
+}
+a:active {
+    text-decoration: none;
+}
