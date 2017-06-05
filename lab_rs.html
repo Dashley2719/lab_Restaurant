@@ -18,7 +18,34 @@
     <body>
         <div class="jumbotron">
             <h1>Puzzles</h1>
-            <p>New locations opening every week!</p>
+            <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>   
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <p style="text-align:center;">New Locations Opening Every Month!</p>
+                    </div>
+                    <div class="item">
+                        <p style="text-align:center;">Seasonal Menus Roll Out for Summer Days!</p>
+                    </div>
+                    <div class="item">
+                        <p style="text-align:center;">The Drink of the Month is a SG Special Brew!</p>
+                    </div>
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <p style="text-align:center; font-size:10pt;">Make Sure Javascript is Enabled.</p>
         </div>
         <ul class="nav nav-tabs">
             <li class="active"><a href="lab_rs.html">Home <span class="glyphicon glyphicon-home"></span></a></li>
