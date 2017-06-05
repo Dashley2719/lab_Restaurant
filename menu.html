@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Menu Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link href="restaurantStyles.css"
             rel="stylesheet"
             type="text/css" />
@@ -20,54 +29,81 @@
             }
             p {
                 text-align:center;
+                color:white;
+                font-family: Franklin Gothic Medium;
             }
             body.body {
-                background-color: saddlebrown;
+                background-color: darkgreen;
             }
 
         </style>
     </head>
     <body class="body">
+        <div class="jumbotron">
             <h1>Puzzles</h1>
+        </div>
+        <ul class="nav nav-tabs">
+            <li><a href="lab_rs.html">Home <span class="glyphicon glyphicon-home"></span></a></li>
+            <li class="active"><a href="menu.html">Menu <span class="glyphicon glyphicon-fast-food"></span></a></li>
+            <li><a href="contact.html">Contact Us <span class="glyphicon glyphicon-phone-alt"></span></a></li>
+            <li><a href="beverages.html">Beverages <span class="glyphicon glyphicon-glass"></span></a></li>
+        </ul>
         <hr/>
-        <a href="lab_rs.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="beverages.html">Beverages</a>
-        <hr/>
-        <div class="background">
-        <table>
-            <tr>
-                <th>The Best Burger In New York</th>
-                <th>TedMosbyIsAJerk.com</th>
-                <th>No Questions Asked</th>
-            </tr><br/>
-            <tr>                
-                <td>8oz Grilled & Seasoned Sirloin,<br/>
-                Served with Onion Rings<br/>$16.00</td>
-                <td>Chicken Jerk Wrap-Olives, Tomato,<br/>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="font-size:18pt;">
+                    <p>The Best Burger In New York</p>
+                </div>
+                <div class="col-md-4" style="font-size:18pt;">
+                    <p>TedMosbyIsAJerk.com</p>
+                </div>
+                <div class="col-md-4" style="font-size:18pt;">
+                    <p>No Ouestions Asked</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>8oz Grilled & Seasoned Sirloin,<br/>
+                Served with Onion Rings<br/>$16.00</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Chicken Jerk Wrap-Olives, Tomato,<br/>
                  Red Onion, Jalapeno Peppers & Cheddar Cheese,<br/>
-                  Served with Fries<br/>$16.00</td>
-                <td>Meatballs & Pasta served with<br/>
-                 Marinara Sauce<br/>$16.00</td>
-            </tr>
-        </table><br/>
-        <table>
-            <tr>
-                <th>Suit Up Sandwich</th>
-                <th>Be Awesome Instead</th>
-                <th>The "Bro Code" Combo</th>
-            </tr>
-            <tr>
-                <td>Sliced BBQ Pork Sandwich with<br/>
+                  Served with Fries<br/>$16.00</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Meatballs & Pasta served with<br/>
+                 Marinara Sauce<br/>$16.00</p>
+                </div>
+            </div>
+        <br/>
+        <br/>
+            <div class="row">
+                <div class="col-md-4" style="font-size:18pt;">
+                    <p>Suit Up Sandwich</p>
+                </div>
+                <div class="col-md-4" style="font-size:18pt;">
+                    <p>Be Awesome Instead</p>
+                </div>
+                <div class="col-md-4" style="font-size:18pt;">
+                    <p>The "Bro Code" Combo</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Sliced BBQ Pork Sandwich with<br/>
                  cheddar on Roll, served with<br/>
-                  Sweet Potato Fries<br/>$16.00</td>
-                <td>Mac & Cheese with Bacon<br/>
-                $12.00</td>
-                <td>Buffalo Wings, Chicken Fingers,<br/>
-                 Potato Skins & Mozzarella Sticks<br/>$18.00</td>
-            </tr>
-        </table>
+                  Sweet Potato Fries<br/>$16.00</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Mac & Cheese with Bacon<br/>
+                $12.00</p>
+                </div>
+                <div class="col-md-4">
+                    <p>Buffalo Wings, Chicken Fingers,<br/>
+                 Potato Skins & Mozzarella Sticks<br/>$18.00</p>
+                </div>
+            </div>
         </div>
     </body>
     <footer>
